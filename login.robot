@@ -38,10 +38,10 @@ I am Login Menu with Invalid Email and Valid Password
      Click Element                      //button[@type="submit"]
      Element Should Be Visible          //input[@id="email"]
 
-I am Login Menu with Unvalid Email and Unvalid Password
+I am Login Menu with Invalid Email and Invalid Password
 
      Maximize Browser Window
-     Input Text                         //input[@id="email"]                    jenaru@yopmail.com
+     Input Text                         //input[@id="email"]                    jenaru@yopmail
      Input Text                         //input[@id="password"]                 123456
      Click Element                      //img[@src="https://pub-eish-dev.keponet.com/img/visibility.svg"]
      Click Element                      //button[@type="submit"]
@@ -66,7 +66,7 @@ I am Login with Menu Forget Password for email not registered
      Element Text Should Be             //span[@class="invalid-feedback"]       The selected email is invalid.
     
 
-I am Login with Menu Forget Password for invalid email
+I am Login with Menu Forget Password for Invalid email
 
      Maximize Browser Window
      Click Element                      //p[@id="forgot-password-container"]
