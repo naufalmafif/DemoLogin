@@ -29,7 +29,7 @@ I am Login Menu with Valid Email and Invalid Password
      Element Text Should Be             //div[@class="alert alert-danger text-danger"]                          Email yang dimasukkan atau password salah, silahkan cek input anda.        
      
 
-I am Login Menu with Invalid Email and Valid Password
+I am Login Menu with Not Register Email and Valid Password
 
      Maximize Browser Window
      Input Text                         //input[@id="email"]                    jenaru@yopmail.com
